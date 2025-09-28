@@ -1,0 +1,19 @@
+ Meu projetinho para pratica com python,A prática levará a minha perfeição:
+
+print("Banco de dados/cadastro do Natan")
+
+cadastro = [
+    {"nome": "natan", "cargo": "programador-senior", "salario": 4000},
+    {"nome": "gabriele", "cargo": "programadora-frontend", "salario": 3500},
+    {"nome": "melinda", "cargo": "design", "salario": 2500},
+    {"nome": "ana", "cargo": "gerente de projetos", "salario": 2850}
+]
+
+1- Adicionando um novo funcionário
+cadastro.append(
+    {"nome": "rafaela", "cargo": "estagiaria", "salario": 2000}
+)
+
+2- Imprimindo todos os funcionários
+for pessoa in cadastro:
+    print(pessoa["nome"], "-", pessoa["cargo"], "-", pessoa["salario"])
